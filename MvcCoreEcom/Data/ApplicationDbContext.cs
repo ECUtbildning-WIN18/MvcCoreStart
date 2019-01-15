@@ -17,5 +17,6 @@ namespace MvcCoreEcom.Data
 
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }
